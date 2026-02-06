@@ -1,0 +1,47 @@
+#EXTM3U
+# Capital 21 (CDMX) — web oficial
+#EXTINF:-1 tvg-id="Capital21.mx" tvg-name="Capital 21 (CDMX)" tvg-country="MX" tvg-language="es" group-title="Regional;Cultural;Noticias" x-web="true" x-site="https://www.capital21.cdmx.gob.mx/en-vivo",Capital 21 (CDMX)
+https://www.capital21.cdmx.gob.mx/en-vivo
+# Jalisco TV — web oficial
+#EXTINF:-1 tvg-id="JaliscoTV.mx" tvg-name="Jalisco TV" tvg-country="MX" tvg-language="es" group-title="Regional;Cultural;Noticias" x-web="true" x-site="https://jaliscotv.com/jaliscotv-en-vivo/",Jalisco TV
+https://jaliscotv.com/jaliscotv-en-vivo/
+# UDG TV (Canal 44) — web oficial
+#EXTINF:-1 tvg-id="UDGTV.mx" tvg-name="UDG TV (Canal 44)" tvg-country="MX" tvg-language="es" group-title="Regional;Cultural;Noticias" x-web="true" x-site="https://udgtv.com/canal44",UDG TV (Canal 44)
+https://udgtv.com/canal44
+# TV4 Guanajuato — HLS
+#EXTINF:-1 tvg-id="TV4Guanajuato.mx" tvg-name="TV4 Guanajuato 4.1" tvg-country="MX" tvg-language="es" group-title="Regional;Cultural;Noticias",TV4 Guanajuato 4.1
+https://5f1af61612fb5.streamlock.net/tv4/tv4.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TV4Gto-4.2.mx" tvg-name="TV4 4.2" tvg-country="MX" tvg-language="es" group-title="Regional;Cultural",TV4 Guanajuato 4.2
+https://5f2c1b0d880e5.streamlock.net/tv42/tv42.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TV4Gto-4.3.mx" tvg-name="TV4 Deportes 4.3" tvg-country="MX" tvg-language="es" group-title="Regional;Deportes",TV4 Guanajuato 4.3
+https://5f1af61612fb5.streamlock.net/tv43gto/smil:tv43gto.smil/playlist.m3u8
+# Canal 28 Nuevo León — web
+#EXTINF:-1 tvg-id="Canal28NL.mx" tvg-name="Canal 28 Nuevo León" tvg-country="MX" tvg-language="es" group-title="Regional;Noticias" x-web="true" x-site="https://canal28.mx/",Canal 28 Nuevo León
+https://canal28.mx/
+# Canal 28 Chihuahua — web
+#EXTINF:-1 tvg-id="Canal28Chihuahua.mx" tvg-name="Canal 28 Chihuahua" tvg-country="MX" tvg-language="es" group-title="Regional;Noticias" x-web="true" x-site="https://canal28.tv/",Canal 28 Chihuahua
+https://canal28.tv/
+# TeleYucatán — web
+#EXTINF:-1 tvg-id="TeleYucatan.mx" tvg-name="TeleYucatán" tvg-country="MX" tvg-language="es" group-title="Regional;Noticias;Cultural" x-web="true" x-site="https://www.teleyucatan.com/envivo",TeleYucatán
+https://www.teleyucatan.com/envivo
+# TVMÁS Veracruz — web
+#EXTINF:-1 tvg-id="TVMASVeracruz.mx" tvg-name="TVMÁS Veracruz" tvg-country="MX" tvg-language="es" group-title="Regional;Cultural;Noticias" x-web="true" x-site="https://enlinea.rtv.org.mx/en-vivo",TVMÁS Veracruz
+https://enlinea.rtv.org.mx/en-vivo
+# Telemax Sonora — web
+#EXTINF:-1 tvg-id="TelemaxSonora.mx" tvg-name="Telemax Sonora" tvg-country="MX" tvg-language="es" group-title="Regional;Noticias;Cultural" x-web="true" x-site="https://telemax.com.mx/en-vivo/",Telemax Sonora
+https://telemax.com.mx/en-vivo/
+# SIZART Zacatecas — web
+#EXTINF:-1 tvg-id="SIZART24.mx" tvg-name="SIZART Canal 24 Zacatecas" tvg-country="MX" tvg-language="es" group-title="Regional;Cultural;Educativo" x-web="true" x-site="https://www.sizart.org.mx/",SIZART Canal 24 Zacatecas
+https://www.sizart.org.mx/
+# CORTV Oaxaca — web
+#EXTINF:-1 tvg-id="CORTV.mx" tvg-name="CORTV Oaxaca" tvg-country="MX" tvg-language="es" group-title="Regional;Cultural;Educativo" x-web="true" x-site="https://www.oaxaca.gob.mx/cortv/tv-en-vivo/",CORTV Oaxaca
+https://www.oaxaca.gob.mx/cortv/tv-en-vivo/
+# SQCS Quintana Roo — web
+#EXTINF:-1 tvg-id="SQCS.mx" tvg-name="SQCS TV (Quintana Roo)" tvg-country="MX" tvg-language="es" group-title="Regional;Cultural;Noticias" x-web="true" x-site="https://sqcs.qroo.gob.mx/television-en-vivo/",SQCS TV (Quintana Roo)
+https://sqcs.qroo.gob.mx/television-en-vivo/
+# Canal 13 Puebla — web
+#EXTINF:-1 tvg-id="Canal13Puebla.mx" tvg-name="Canal 13 Puebla" tvg-country="MX" tvg-language="es" group-title="Regional;General;Noticias" x-web="true" x-site="https://canal13mexico.com/online/puebla/",Canal 13 Puebla
+https://canal13mexico.com/online/puebla/
+# Canal 13 Yucatán — web
+#EXTINF:-1 tvg-id="Canal13Yucatan.mx" tvg-name="Canal 13 Yucatán" tvg-country="MX" tvg-language="es" group-title="Regional;General;Noticias" x-web="true" x-site="https://canal13mexico.com/online/yucatan/",Canal 13 Yucatán
+https://canal13mexico.com/online/yucatan/

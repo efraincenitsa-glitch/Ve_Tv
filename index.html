@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="manifest" href="./manifest.webmanifest"/>
+<link rel="apple-touch-icon" href="icons/icon-1024.png"/>
+<meta name="theme-color" content="#00b37e"/>
+<title>MX TV Públicos</title>
+<link rel="stylesheet" href="./styles.css"/>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="logo"></div>
+    <h1>MX TV Públicos — Regionales, Documentales e Internacionales</h1>
+  </div>
+  <div class="controls">
+    <input id="search" placeholder="Buscar canal..."/>
+    <select id="groupFilter"><option value="">Todos los grupos</option></select>
+    <select id="countryFilter"><option value="">Todos los países</option></select>
+    <select id="classFilter"><option value="">Todas las clasificaciones</option></select>
+    <button class="btn" id="btnFavs">⭐ Favoritos</button>
+    <input id="fileInput" type="file" accept=".m3u,.m3u8" style="display:none"/>
+    <button class="btn secondary" id="btnImport">📄 Importar M3U</button>
+    <button class="btn" id="btnUnlockAdult">🔓 Mostrar contenido adulto</button>
+    <button class="btn secondary" id="btnLockAdult">🔒 Bloquear de nuevo</button>
+    <button class="btn secondary" id="btnReset">🧹 Restablecer app</button>
+  </div>
+</header>
+<div class="alert">Si ves esta barra, la app cargó correctamente. Si en algún momento no se ve contenido en iPhone, toca “🧹 Restablecer app” para limpiar caché/Service Worker y recargar.</div>
+<main>
+  <div id="channelList"></div>
+</main>
+<footer>
+  <div class="player">
+    <video id="player" controls playsinline></video>
+    <div class="note">• HLS (.m3u8) se reproduce nativamente en iPhone/iPad. Los canales marcados <b>WEB</b> abren su <b>plataforma oficial</b>.</div>
+  </div>
+</footer>
+<script src="./sw-register.js"></script>
+<script src="./app.js"></script>
+<script>
+// Botón Restablecer: desregistra SW + borra caché
+(async function(){
+  const btn = document.getElementById('btnReset');
+  btn.addEventListener('click', async ()=>{
+    try{
+      if('serviceWorker' in navigator){
+        const regs = await navigator.serviceWorker.getRegistrations();
+        await Promise.all(regs.map(r=>r.unregister()));
+      }
+      if('caches' in window){
+        const keys = await caches.keys();
+        await Promise.all(keys.map(k=>caches.delete(k)));
+      }
+      location.reload(true);
+    }catch(e){ alert('No se pudo limpiar caché: '+ e); }
+  });
+})();
+</script>
+</body>
+</html>

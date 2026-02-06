@@ -1,0 +1,25 @@
+:root{--bg:#0b0f14;--card:#121821;--fg:#e8f1f2;--muted:#9bb3bd;--accent:#00b37e;--chip:#1f2a36;--danger:#d32f2f}
+*{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial;background:var(--bg);color:var(--fg)}
+header{position:sticky;top:0;background:linear-gradient(180deg,#0e1319 0%, #0b0f14 100%);border-bottom:1px solid #0e1a22;z-index:3}
+header .wrap{max-width:1100px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;gap:12px}
+.logo{width:40px;height:40px;border-radius:9px;background:url('icons/icon-192.png') center/cover}
+h1{font-size:18px;margin:0}
+.controls{max-width:1100px;margin:0 auto;padding:8px 16px 12px;display:flex;flex-wrap:wrap;gap:8px}
+.controls input,.controls select{background:var(--card);color:var(--fg);border:1px solid #1f2833;border-radius:8px;padding:10px 12px}
+.controls .btn{background:var(--accent);border:none;color:white;padding:10px 12px;border-radius:8px;cursor:pointer}
+.controls .btn.secondary{background:#1f2833;color:#cfe7ef}
+.alert{max-width:1100px;margin:8px auto 0;padding:6px 16px;color:#062016;background:#063a2f2e;border-left:4px solid var(--accent);font-size:13px}
+main{max-width:1100px;margin:8px auto 68px;padding:0 16px}
+.groupTitle{margin:18px 0 8px;font-weight:700;color:#c8d9df}
+.channel{display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid #0f1923;padding:10px;border-radius:10px;margin-bottom:8px;cursor:pointer}
+.channel:hover{outline:1px solid #184a3a}
+.channel .logo{width:56px;height:56px;border-radius:12px;background:#0e141a;display:flex;align-items:center;justify-content:center;color:#79ffe1;font-weight:700}
+.channel .name{font-weight:700}
+.small{font-size:12px;color:var(--muted)}
+.chip{display:inline-block;background:var(--chip);color:#cfe7ef;border-radius:999px;padding:2px 8px;margin-right:6px}
+.chip.danger{background:var(--danger);color:#fff}
+.channel.locked .name,.channel.locked .small{filter:blur(1px);opacity:.8}
+footer{position:fixed;left:0;right:0;bottom:0;background:#0e141a;padding:8px 16px;border-top:1px solid #0f1923}
+.player{display:flex;gap:10px;align-items:center}
+video{width:100%;max-height:38vh;border-radius:10px;background:#000}
+.note{font-size:12px;color:#9bb3bd}

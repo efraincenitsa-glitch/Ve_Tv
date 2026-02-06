@@ -1,0 +1,31 @@
+#EXTM3U
+# Canal 22 — web
+#EXTINF:-1 tvg-id="Canal22.mx" tvg-name="Canal 22" tvg-country="MX" tvg-language="es" group-title="Documentales;Nocturno;Cultural" x-web="true" x-site="https://canal22.org.mx/streaming-22-1.html",Canal 22
+https://canal22.org.mx/streaming-22-1.html
+# TV UNAM — web
+#EXTINF:-1 tvg-id="TVUNAM.mx" tvg-name="TV UNAM" tvg-country="MX" tvg-language="es" group-title="Documentales;Nocturno;Cultural" x-web="true" x-site="https://tv.unam.mx/en-vivo/",TV UNAM
+https://tv.unam.mx/en-vivo/
+# Canal Catorce — web
+#EXTINF:-1 tvg-id="CanalCatorce.mx" tvg-name="Canal Catorce (14)" tvg-country="MX" tvg-language="es" group-title="Documentales;Nocturno;Cultural" x-web="true" x-site="https://canalcatorce.tv/?c=EnLinea&p=linea&a=Index",Canal Catorce (14)
+https://canalcatorce.tv/?c=EnLinea&p=linea&a=Index
+# Capital 21 — web
+#EXTINF:-1 tvg-id="Capital21.mx" tvg-name="Capital 21 (CDMX)" tvg-country="MX" tvg-language="es" group-title="Documentales;Nocturno;Cultural" x-web="true" x-site="https://www.capital21.cdmx.gob.mx/en-vivo",Capital 21 (CDMX)
+https://www.capital21.cdmx.gob.mx/en-vivo
+# UDG TV — web
+#EXTINF:-1 tvg-id="UDGTV.mx" tvg-name="UDG TV (Canal 44)" tvg-country="MX" tvg-language="es" group-title="Documentales;Nocturno;Cultural" x-web="true" x-site="https://udgtv.com/canal44",UDG TV (Canal 44)
+https://udgtv.com/canal44
+# SIZART Zacatecas — web
+#EXTINF:-1 tvg-id="SIZART24.mx" tvg-name="SIZART 24 Zacatecas" tvg-country="MX" tvg-language="es" group-title="Documentales;Nocturno;Cultural" x-web="true" x-site="https://www.sizart.org.mx/",SIZART 24 Zacatecas
+https://www.sizart.org.mx/
+# CORTV Oaxaca — web
+#EXTINF:-1 tvg-id="CORTV.mx" tvg-name="CORTV Oaxaca" tvg-country="MX" tvg-language="es" group-title="Documentales;Nocturno;Cultural" x-web="true" x-site="https://www.oaxaca.gob.mx/cortv/tv-en-vivo/",CORTV Oaxaca
+https://www.oaxaca.gob.mx/cortv/tv-en-vivo/
+# TVMÁS Veracruz — web
+#EXTINF:-1 tvg-id="TVMASVeracruz.mx" tvg-name="TVMÁS Veracruz" tvg-country="MX" tvg-language="es" group-title="Documentales;Nocturno;Cultural" x-web="true" x-site="https://enlinea.rtv.org.mx/en-vivo",TVMÁS Veracruz
+https://enlinea.rtv.org.mx/en-vivo
+# Telemax Sonora — web
+#EXTINF:-1 tvg-id="TelemaxSonora.mx" tvg-name="Telemax Sonora" tvg-country="MX" tvg-language="es" group-title="Documentales;Nocturno;Cultural" x-web="true" x-site="https://telemax.com.mx/en-vivo/",Telemax Sonora
+https://telemax.com.mx/en-vivo/
+# TV4 Guanajuato — HLS
+#EXTINF:-1 tvg-id="TV4Guanajuato.mx" tvg-name="TV4 Guanajuato 4.1" tvg-country="MX" tvg-language="es" group-title="Documentales;Nocturno;Cultural",TV4 Guanajuato 4.1
+https://5f1af61612fb5.streamlock.net/tv4/tv4.smil/playlist.m3u8
